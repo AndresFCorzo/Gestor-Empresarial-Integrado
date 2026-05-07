@@ -1,0 +1,110 @@
+# ============================================
+# Gestor Empresarial Integrado - .gitignore
+# ============================================
+
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+
+# Directorios de compilación y salida
+/target/
+/build/
+/out/
+/bin/
+/dist/
+/.classpath
+
+# Archivos de configuración del IDE
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+.DS_Store
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+*.launch
+.factorypath
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+build.xml
+manifest.mf
+
+# VS Code
+.vscode/
+*.code-workspace
+*.code-snippets
+
+# Archivos de log
+*.log
+logs/
+*.log.gz
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+~$*
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Credenciales y configuración sensible
+config.properties
+application.properties
+database.properties
+secrets.yml
+*.key
+*.pem
+*.crt
+.env
+
+# Archivos de dependencias (si no usas Maven/Gradle)
+/lib/*.jar
+!lib/README.md
+
+# Directorios de documentación generada
+/docs/api/
+/docs/generated/
+
+# Archivos de respaldo
+*.backup
+*.orig
+*.rej
+
+# Archivos de pruebas
+/test-output/
+/test-reports/
+
+# Archivos específicos del proyecto
+*.log
+*.lock
+.dependencies/
+.mvn/
