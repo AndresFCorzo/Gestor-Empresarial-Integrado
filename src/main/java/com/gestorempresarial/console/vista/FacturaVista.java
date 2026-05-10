@@ -1,12 +1,12 @@
-package main.java.com.gestorempresarial.console.vista;
+package com.gestorempresarial.console.vista;
 
-import main.java.com.gestorempresarial.console.controlador.ClienteControlador;
-import main.java.com.gestorempresarial.console.controlador.FacturaControlador;
-import main.java.com.gestorempresarial.console.controlador.ProductoControlador;
-import main.java.com.gestorempresarial.modelo.Cliente;
-import main.java.com.gestorempresarial.modelo.DetalleFactura;
-import main.java.com.gestorempresarial.modelo.Factura;
-import main.java.com.gestorempresarial.modelo.Producto;
+import com.gestorempresarial.console.controlador.ClienteControlador;
+import com.gestorempresarial.console.controlador.FacturaControlador;
+import com.gestorempresarial.console.controlador.ProductoControlador;
+import com.gestorempresarial.modelo.Cliente;
+import com.gestorempresarial.modelo.DetalleFactura;
+import com.gestorempresarial.modelo.Factura;
+import com.gestorempresarial.modelo.Producto;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,7 +14,6 @@ import java.util.Scanner;
 /**
  * Vista del módulo de facturación (Versión Consola)
  * @author Andres Felipe Corzo Angarita
- * @author Thomas Felipe Colmenares Perdomo
  */
 public class FacturaVista {
     

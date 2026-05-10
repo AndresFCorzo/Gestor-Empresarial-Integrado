@@ -1,4 +1,4 @@
-package main.java.com.gestorempresarial.dao;
+package com.gestorempresarial.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionBD {
     private static final String URL = "jdbc:mysql://localhost:3306/gestor_empresarial?useSSL=false&serverTimezone=America/Bogota";
     private static final String USUARIO = "root";
-    private static final String CONTRASENA = "";
+    private static final String CONTRASENA = "David6629*";
     private static Connection conexion = null;
     
     private ConexionBD() {}

@@ -1,4 +1,4 @@
-package main.java.com.gestorempresarial.modelo;
+package com.gestorempresarial.modelo;
 
 public class Producto {
     private int idProducto;

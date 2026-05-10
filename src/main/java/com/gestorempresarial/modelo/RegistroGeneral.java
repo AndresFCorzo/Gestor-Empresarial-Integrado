@@ -1,5 +1,5 @@
 // com.gestorempresarial.modelo.RegistroGeneral.java
-package main.java.com.gestorempresarial.modelo;
+package com.gestorempresarial.modelo;
 
 import java.util.Date;
 

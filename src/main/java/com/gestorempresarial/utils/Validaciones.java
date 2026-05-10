@@ -1,4 +1,4 @@
-package main.java.com.gestorempresarial.utils;
+package com.gestorempresarial.utils;
 
 import java.util.regex.Pattern;
 

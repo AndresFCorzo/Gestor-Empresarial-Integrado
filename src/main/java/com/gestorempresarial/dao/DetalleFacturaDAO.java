@@ -1,7 +1,7 @@
-package main.java.com.gestorempresarial.dao;
+package com.gestorempresarial.dao;
 
-import main.java.com.gestorempresarial.modelo.DetalleFactura;
-import main.java.com.gestorempresarial.modelo.Producto;
+import com.gestorempresarial.modelo.DetalleFactura;
+import com.gestorempresarial.modelo.Producto;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

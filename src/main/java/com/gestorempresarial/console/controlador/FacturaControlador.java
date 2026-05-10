@@ -1,18 +1,17 @@
-package main.java.com.gestorempresarial.console.controlador;
+package com.gestorempresarial.console.controlador;
 
-import main.java.com.gestorempresarial.dao.FacturaDAO;
-import main.java.com.gestorempresarial.dao.ProductoDAO;
-import main.java.com.gestorempresarial.modelo.Cliente;
-import main.java.com.gestorempresarial.modelo.DetalleFactura;
-import main.java.com.gestorempresarial.modelo.Factura;
-import main.java.com.gestorempresarial.modelo.Producto;
-import main.java.com.gestorempresarial.utils.Validaciones;
+import com.gestorempresarial.dao.FacturaDAO;
+import com.gestorempresarial.dao.ProductoDAO;
+import com.gestorempresarial.modelo.Cliente;
+import com.gestorempresarial.modelo.DetalleFactura;
+import com.gestorempresarial.modelo.Factura;
+import com.gestorempresarial.modelo.Producto;
+import com.gestorempresarial.utils.Validaciones;
 import java.util.List;
 
 /**
  * Controlador para la gestión de facturación (Versión Consola)
  * @author Andres Felipe Corzo Angarita
- * @author Thomas Felipe Colmenares Perdomo
  */
 public class FacturaControlador {
     

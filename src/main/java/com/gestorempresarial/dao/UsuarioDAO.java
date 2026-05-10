@@ -1,7 +1,7 @@
 // com.gestorempresarial.dao.UsuarioDAO.java
-package main.java.com.gestorempresarial.dao;
+package com.gestorempresarial.dao;
 
-import main.java.com.gestorempresarial.modelo.Usuario;
+import com.gestorempresarial.modelo.Usuario;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

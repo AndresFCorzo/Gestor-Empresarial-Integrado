@@ -1,14 +1,13 @@
-package main.java.com.gestorempresarial.console.controlador;
+package com.gestorempresarial.console.controlador;
 
-import main.java.com.gestorempresarial.dao.ClienteDAO;
-import main.java.com.gestorempresarial.modelo.Cliente;
-import main.java.com.gestorempresarial.utils.Validaciones;
+import com.gestorempresarial.dao.ClienteDAO;
+import com.gestorempresarial.modelo.Cliente;
+import com.gestorempresarial.utils.Validaciones;
 import java.util.List;
 
 /**
  * Controlador para la gestión de clientes (Versión Consola)
  * @author Andres Felipe Corzo Angarita
- * @author Thomas Felipe Colmenares Perdomo
  */
 public class ClienteControlador {
     
