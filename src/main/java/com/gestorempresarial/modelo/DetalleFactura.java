@@ -1,8 +1,6 @@
-// com.gestorempresarial.modelo.DetalleFactura.java
-package com.gestorempresarial.modelo;
+package main.java.com.gestorempresarial.modelo;
 
 public class DetalleFactura {
-    
     private int idDetalle;
     private Factura factura;
     private Producto producto;
@@ -24,29 +22,20 @@ public class DetalleFactura {
     // Getters y Setters
     public int getIdDetalle() { return idDetalle; }
     public void setIdDetalle(int idDetalle) { this.idDetalle = idDetalle; }
-    
     public Factura getFactura() { return factura; }
     public void setFactura(Factura factura) { this.factura = factura; }
-    
     public Producto getProducto() { return producto; }
     public void setProducto(Producto producto) { 
         this.producto = producto;
         this.precioUnitario = producto.getPrecio();
         calcularValores();
     }
-    
     public int getCantidad() { return cantidad; }
     public void setCantidad(int cantidad) { 
         this.cantidad = cantidad;
         calcularValores();
     }
-    
     public double getPrecioUnitario() { return precioUnitario; }
-    public void setPrecioUnitario(double precioUnitario) { 
-        this.precioUnitario = precioUnitario;
-        calcularValores();
-    }
-    
     public double getSubtotal() { return subtotal; }
     public double getValorIva() { return valorIva; }
     public double getTotal() { return total; }
@@ -60,17 +49,9 @@ public class DetalleFactura {
         }
         this.total = subtotal + valorIva;
     }
-    
-    public void agregarDetalle() {
-        System.out.println("Detalle agregado: " + cantidad + " x " + producto.getNombre());
-    }
-    
-    public void actualizarDetalle() {
-        calcularValores();
-        System.out.println("Detalle actualizado");
-    }
-    
-    public void eliminarDetalle() {
-        System.out.println("Detalle eliminado: " + producto.getNombre());
+
+    public void setPrecioUnitario(double double1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setPrecioUnitario'");
     }
 }

@@ -1,66 +1,38 @@
 # 🏢 GESTOR EMPRESARIAL INTEGRADO
 
-Sistema de gestión contable y administrativa para pequeñas y medianas empresas, desarrollado como proyecto formativo del SENA.
+## Descripción
+Sistema de gestión contable y administrativa para pequeñas y medianas empresas. Incluye dos versiones:
+- **Versión Consola**: Aplicación de línea de comandos para pruebas y desarrollo
+- **Versión Web**: Aplicación web con Servlets, JSP y Bootstrap
 
-## 📋 Descripción
+## Tecnologías
+- Java 11
+- MySQL 8.0
+- JDBC
+- Servlets 4.0
+- JSP 2.3 / JSTL 1.2
+- Bootstrap 5
+- Git
 
-El Gestor Empresarial Integrado es una solución tecnológica que automatiza y centraliza los procesos administrativos, contables y de gestión documental de una empresa. El sistema permite:
+## Estructura del Proyecto
+GESTOR_EMPRESARIAL/
+├── src/main/java/com/gestorempresarial/
+│ ├── modelo/ # Clases de dominio (COMPARTIDO)
+│ ├── dao/ # Acceso a datos (COMPARTIDO)
+│ ├── utils/ # Utilidades (COMPARTIDO)
+│ ├── console/ # Versión consola
+│ └── web/ # Versión web (servlets)
+├── src/main/webapp/ # JSPs y recursos web
+└── sql/ # Scripts de base de datos
 
-- ✅ Emisión y gestión de facturas electrónicas
-- ✅ Control de inventario y productos
-- ✅ Gestión de clientes y proveedores
-- ✅ Generación de reportes contables
-- ✅ Control de gastos y viáticos (en desarrollo)
-- ✅ Gestión de nómina y seguridad social (en desarrollo)
 
-## 🚀 Tecnologías Utilizadas
+## Requisitos
+- JDK 11+
+- MySQL 8.0+
+- Apache Tomcat 9+ (para versión web)
 
-| Tecnología | Versión | Uso |
-|------------|---------|-----|
-| Java | 11 | Lenguaje principal |
-| MySQL | 8.0 | Base de datos |
-| JDBC | - | Conexión a base de datos |
-| Git | - | Control de versiones |
+## Instalación
 
-## 📁 Estructura del Proyecto
-GESTOR_EMPRESARIAL_INTEGRADO/
-│
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── com/
-│ │ └── gestorempresarial/
-│ │ ├── controlador/ # Lógica de negocio
-│ │ │ ├── FacturaControlador.java
-│ │ │ └── ClienteControlador.java
-│ │ ├── dao/ # Acceso a datos (JDBC)
-│ │ │ ├── ConexionBD.java
-│ │ │ ├── ClienteDAO.java
-│ │ │ ├── ProductoDAO.java
-│ │ │ ├── FacturaDAO.java
-│ │ │ └── DetalleFacturaDAO.java
-│ │ ├── modelo/ # Clases de dominio
-│ │ │ ├── Cliente.java
-│ │ │ ├── Producto.java
-│ │ │ ├── Factura.java
-│ │ │ └── DetalleFactura.java
-│ │ └── vista/ # Interfaz de usuario
-│ │ └── MenuPrincipal.java
-│ └── resources/ # Recursos y configuraciones
-│
-├── sql/
-│ └── schema.sql # Script de base de datos
-├── lib/ # Librerías externas JAR
-├── docs/ # Documentación del proyecto
-├── .gitignore
-└── README.md
-
-## Autor
-- Andres Felipe Corzo Angarita
-
-## Instructor
-Francisco Arnaldo Vargas Bermudez
-
-## Institución
-SENA - Análisis y Desarrollo de Software (Ficha: 3070323)
-"@ | Out-File -FilePath README.md -Encoding UTF8
+### 1. Configurar Base de Datos
+```bash
+mysql -u root -p < sql/schema.sql

@@ -1,7 +1,7 @@
 // com.gestorempresarial.modelo.RegistroGeneralDAO.java
 package main.java.com.gestorempresarial.dao;
 
-import com.gestorempresarial.modelo.RegistroGeneral;
+import main.java.com.gestorempresarial.modelo.RegistroGeneral;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
